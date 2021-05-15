@@ -11,7 +11,17 @@ const nombreDias = [
     'martes',
     'miércoles',
   ];
-
+  function myFunction(x) {
+    if (x.matches) { // If media query matches
+      document.getElementById("loc").classList.remove("position-absolute")
+    } else {
+        document.getElementById("loc").classList.add("position-absolute")
+    }
+  }
+  
+  var x = window.matchMedia("(max-width: 960px)")
+  myFunction(x) // Call listener function at run time
+  x.addListener(myFunction)
 
 function ajax_get(url, callback) {
     var xmlhttp = new XMLHttpRequest();

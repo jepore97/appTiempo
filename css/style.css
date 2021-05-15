@@ -111,6 +111,7 @@ body {
 .tarjeta-aliado {
   box-shadow: -1px -1px 63px -2px #a8a5a8;
   border-radius: 20px;
+  background-color: #fff;
 }
 .icon-aliado {
   display: flex;
@@ -140,4 +141,8 @@ body {
 .trazo {
   background-image: url("../img/trazo.jpg");
   height: 80px;
+}
+.loc {
+  right: 5px;
+  bottom: 20px;
 }
