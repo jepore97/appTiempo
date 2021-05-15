@@ -113,6 +113,8 @@ body {
   border-radius: 20px;
 }
 .icon-aliado {
+  display: flex;
+  align-items: center;
   background-color: #7d68e9;
   border-radius: 20px;
   margin-left: 10px;
@@ -121,4 +123,21 @@ body {
   display: flex;
   align-items: center;
   border-right: 1px solid #808080;
+}
+.tarjeta-location {
+  align-items: center;
+  margin-top: 10px;
+  height: 150px;
+  padding-top: 30px;
+  border-radius: 20px;
+  border: 2px dotted #808080;
+  box-shadow: -1px -1px 63px -2px #a8a5a8;
+}
+.btn-add {
+  border-radius: 20px;
+  text-align: center;
+}
+.trazo {
+  background-image: url("../img/trazo.jpg");
+  height: 80px;
 }
